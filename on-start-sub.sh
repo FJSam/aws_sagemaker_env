@@ -12,15 +12,13 @@ source "$WORKING_DIR/miniconda/bin/activate"
 echo ". /home/ec2-user/SageMaker/custom-miniconda/etc/profile.d/conda.sh" >> ~/.bashrc
 
 cd /home/ec2-user/SageMaker/solaris
-echo "Creating solaris conda environment"
+echo "Creating Art Tensorflow conda environment"
 conda env create -f environment-gpu.yml
 
-
-echo "Activating solaris conda environment"
+echo "Activating Art Tensorflow  conda environment"
 source "$WORKING_DIR/miniconda/bin/activate" art_tensorflow
 
 echo "Installing ipykernal and settng up jupyter kernel in background process."
-pip install . 
 pip install ipykernel
 pip install --quiet boto3
 

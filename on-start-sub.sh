@@ -11,7 +11,7 @@ WORKING_DIR=/home/ec2-user/SageMaker/custom-miniconda
 source "$WORKING_DIR/miniconda/bin/activate"
 echo ". /home/ec2-user/SageMaker/custom-miniconda/etc/profile.d/conda.sh" >> ~/.bashrc
 
-cd /home/ec2-user/SageMaker/solaris
+cd /home/ec2-user/SageMaker/aws_sagemaker_env
 echo "Creating Art Tensorflow conda environment"
 conda env create -f environment-gpu.yml
 

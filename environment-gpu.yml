@@ -14,8 +14,8 @@ dependencies:
   - scikit-image
   - scipy
   - torchvision
-  - cudatoolkit=9.2
+  - cudatoolkit
   - tqdm
   - urllib3
-  - tensorflow-gpu=1.15
+  - tensorflow-gpu=1.15.0
   - cuda100

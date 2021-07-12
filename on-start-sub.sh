@@ -19,6 +19,7 @@ echo "Activating Art Tensorflow  conda environment"
 source "$WORKING_DIR/miniconda/bin/activate" art_tensorflow
 
 echo "Installing ipykernal and settng up jupyter kernel in background process."
+pip install adversarial-robustness-toolbox
 pip install ipykernel
 pip install --quiet boto3
 

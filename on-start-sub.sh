@@ -25,5 +25,6 @@ pip install adversarial-robustness-toolbox
 pip install sagemaker
 pip install torch==1.7.0
 pip install torchvision==0.8.1
+echo "Finished background installations"
 
 EOF

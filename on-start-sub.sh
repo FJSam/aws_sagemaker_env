@@ -24,6 +24,6 @@ pip install --quiet boto3
 pip install adversarial-robustness-toolbox
 pip install sagemaker
 pip install torch==1.7.0
-pip install torchn==0.8.1
+pip install torchvision==0.8.1
 
 EOF
